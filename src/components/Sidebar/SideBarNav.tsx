@@ -13,12 +13,12 @@ const SideBarNav = () => {
   return (
     <Stack spacing="12" align="flex-start">
       <NavSection title="Geral">
-        <NavLink title="Dashborad" icon={RiDashboardLine} />
-        <NavLink title="Usuários" icon={RiContactsLine} />
+        <NavLink title="Dashboard" href="/dashboard" icon={RiDashboardLine} />
+        <NavLink title="Usuários" href="/users" icon={RiContactsLine} />
       </NavSection>
       <NavSection title="Automação">
-        <NavLink title="Formulários" icon={RiInputMethodLine} />
-        <NavLink title="Automação" icon={RiGitMergeLine} />
+        <NavLink title="Formulários" href="/forms" icon={RiInputMethodLine} />
+        <NavLink title="Automação" href="/automation" icon={RiGitMergeLine} />
       </NavSection>
     </Stack>
   );
